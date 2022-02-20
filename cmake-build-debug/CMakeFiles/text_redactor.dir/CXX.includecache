@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fedor/CLionProjects/text_redactor/Document.cpp
+Document.hpp
+/Users/fedor/CLionProjects/text_redactor/Document.hpp
+
+/Users/fedor/CLionProjects/text_redactor/Document.hpp
+sstream
+-
+list
+-
+string
+-
+
+/Users/fedor/CLionProjects/text_redactor/main.cpp
+iostream
+-
+sstream
+-
+Document.cpp
+/Users/fedor/CLionProjects/text_redactor/Document.cpp
+
