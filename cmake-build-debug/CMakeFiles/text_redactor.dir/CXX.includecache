@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/fedor/CLionProjects/text_redactor/Document.cpp
-Document.hpp
-/Users/fedor/CLionProjects/text_redactor/Document.hpp
-
-/Users/fedor/CLionProjects/text_redactor/Document.hpp
+/Users/fedor/CLionProjects/text_redactor/Document.h
 sstream
 -
 list
@@ -23,6 +19,6 @@ iostream
 -
 sstream
 -
-Document.cpp
-/Users/fedor/CLionProjects/text_redactor/Document.cpp
+Document.h
+/Users/fedor/CLionProjects/text_redactor/Document.h
 

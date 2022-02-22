@@ -80,17 +80,17 @@ CMakeFiles/text_redactor.dir/main.cpp.s: cmake_force
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fedor/CLionProjects/text_redactor/main.cpp -o CMakeFiles/text_redactor.dir/main.cpp.s
 
 CMakeFiles/text_redactor.dir/Document.cpp.o: CMakeFiles/text_redactor.dir/flags.make
-CMakeFiles/text_redactor.dir/Document.cpp.o: Document.cpp
+CMakeFiles/text_redactor.dir/Document.cpp.o: ../Document.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fedor/CLionProjects/text_redactor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/text_redactor.dir/Document.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_redactor.dir/Document.cpp.o -c /Users/fedor/CLionProjects/text_redactor/cmake-build-debug/Document.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_redactor.dir/Document.cpp.o -c /Users/fedor/CLionProjects/text_redactor/Document.cpp
 
 CMakeFiles/text_redactor.dir/Document.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_redactor.dir/Document.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fedor/CLionProjects/text_redactor/cmake-build-debug/Document.cpp > CMakeFiles/text_redactor.dir/Document.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fedor/CLionProjects/text_redactor/Document.cpp > CMakeFiles/text_redactor.dir/Document.cpp.i
 
 CMakeFiles/text_redactor.dir/Document.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_redactor.dir/Document.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fedor/CLionProjects/text_redactor/cmake-build-debug/Document.cpp -o CMakeFiles/text_redactor.dir/Document.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fedor/CLionProjects/text_redactor/Document.cpp -o CMakeFiles/text_redactor.dir/Document.cpp.s
 
 # Object files for target text_redactor
 text_redactor_OBJECTS = \

@@ -3,4 +3,9 @@ project(text_redactor)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(text_redactor main.cpp Document.cpp Document.hpp)
+include_directories(.)
+
+add_executable(text_redactor
+        main.cpp
+        Document.cpp
+        Document.h)
