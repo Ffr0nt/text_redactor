@@ -12,6 +12,8 @@
 #include <string>
 
 namespace my_std{
+    // поменяны местами ++ и --
+    //хранит итератор
     template <typename BidIter>
     class reverse_iterator{
     public:
@@ -40,6 +42,7 @@ namespace my_std{
     }
 }//end of my_std
 
+// текстовый документ, хранит в себе список строк
 class Document {
 public:
     class iterator;
@@ -59,6 +62,11 @@ public:
     reverse_iterator rbegin();
 
     reverse_iterator rend();
+
+    void erase_line(const size_t & num);
+
+    iterator& find (const iterator& iter_1 ,const iterator& iter_2, std::string str);
+
 private:
     std::list<std::string> m_lines;
 };
@@ -73,20 +81,33 @@ public:
 
     using lines_iterator = std::list<std::string>::iterator;
     using char_iterator = std::string::iterator;
+    friend class Document;
 
     iterator (lines_iterator line_it, char_iterator char_it, Document *Doc_ptr)
             :m_line_it(line_it), m_char_it(char_it), m_Doc_ptr(Doc_ptr) {}
+
     char& operator *() {return *m_char_it;}
 
     iterator& operator ++ ();
 
     iterator& operator -- ();
 
+    iterator&  operator +=(const size_t & num);
+
+    iterator&  operator -=(const size_t & num);
+
     friend bool operator != (Document::iterator iter_1, Document::iterator iter_2);
+
+    friend bool operator == (Document::iterator iter_1, Document::iterator iter_2);
+
+    iterator& erase_line_for_it (const size_t & num, Document& doc);
+
 private:
     lines_iterator m_line_it;
     char_iterator m_char_it;
     Document* m_Doc_ptr;
 };
+
+
 
 #endif //TEXT_REDACTOR_DOCUMENT_H
